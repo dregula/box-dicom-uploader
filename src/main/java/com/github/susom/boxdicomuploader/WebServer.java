@@ -141,7 +141,7 @@ public class WebServer extends AbstractVerticle {
     String accessToken = user.principal().getString("access_token");
     String refreshToken = user.principal().getString("refresh_token");
 
-    Job job = new Job().withSource("dicom-large").withDestination(folderId);
+    Job job = new Job().withSource("dicom").withDestination(folderId);
     job.setAccessToken(accessToken);
     job.setRefreshToken(refreshToken);
     job.setSessionId(sessionId);
