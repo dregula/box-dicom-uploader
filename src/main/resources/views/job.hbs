@@ -1,0 +1,14 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <p>Hello, {{job.login}}</p>
+  <p>
+    {{#if job}}
+      <p>The job is {{job.sessionId}} and the status is {{job.statusMessage}}, it is {{job.percentComplete}}% complete</p>
+    {{else}}
+      No job returned!
+    {{/if}}
+    </p>
+  </body>
+</html>

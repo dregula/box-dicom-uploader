@@ -1,0 +1,4 @@
+{
+  "main": "com.github.susom.boxdicomuploader.app.Main",
+  "auto-redeploy": true
+}
