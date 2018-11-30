@@ -23,7 +23,7 @@ dicom
 This tree structure increases performance for creating study.boxdicom JSON files.
 
 
-#### Usage
+### Usage
 
 Download the source and compile:
 
