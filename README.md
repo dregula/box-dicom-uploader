@@ -31,7 +31,7 @@ Download the source and compile:
 mvn package
 ```
 
-And run the program with your Box developer credentials as environment variables:
+And run the program with your Box application tokens as environment variables:
 
 ```bash
 BOX_CLIENT_ID=client_id \
