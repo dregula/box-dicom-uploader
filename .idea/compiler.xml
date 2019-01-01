@@ -10,5 +10,8 @@
         <module name="box-dicom-uploader" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="box-dicom-uploader" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
